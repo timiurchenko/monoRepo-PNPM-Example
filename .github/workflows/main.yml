@@ -8,7 +8,9 @@ jobs:
     name: Snyk post processing
     steps:
     - uses: actions/checkout@v2
-      run: ls
+    - name: LS
+      run: |
+        ls
     - name: Snyk API pnpm scan
       id: pnpm-scan-api-tool
       uses: snyk-tech-services/snyk-pnpm-github-action@master
