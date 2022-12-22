@@ -13,6 +13,7 @@ jobs:
       with:
         snykToken: ${{ secrets.snykToken }}
         pnpmLockfilePath: "./"
+        snykOrganization: app4-team
         IncludeDev: "false"
         
         
