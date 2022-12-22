@@ -16,7 +16,7 @@ jobs:
       uses: snyk-tech-services/snyk-pnpm-github-action@master
       with:
         snykToken: ${{ secrets.snykToken }}
-        pnpmLockfilePath: "pnpm-lock.yaml"
+        pnpmLockfilePath: "."
         snykOrganization: app4-team
         IncludeDev: "false"
         
