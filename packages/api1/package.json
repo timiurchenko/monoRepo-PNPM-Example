@@ -20,7 +20,7 @@
     "koa-jwt": "3.5.1",
     "koa-router": "7.4.0",
     "moment": "2.24.0",
-    "winston": "3.2.1",
+    "winston": "3.8.1",
     "knex": "0.19.5",
     "pg": "7.12.1",
     "@monosample/lib": "1.0.0"
